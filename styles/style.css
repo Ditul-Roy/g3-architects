@@ -8,6 +8,7 @@ body{
 /* common style */
 .hedding-conteiner{
     background-color:#f1e6d9;
+    
 }
 .btn-primary{
     font-weight: 600;
@@ -18,8 +19,7 @@ body{
     padding: 20px;
     border: 0;
     border-radius: 8px;
-    align-items: center;
-    margin: 20px 0 20px 300px;
+    
 }
 /* header area style */
 
@@ -52,6 +52,10 @@ body{
     font-weight: 700;
     font-size: 64px;
 }
+.hedding-btn{
+    align-items: center;
+    margin: 20px 0 20px 300px;
+}
 /* banner title style */
 .b-title-1{
     padding:200px;
@@ -71,4 +75,60 @@ body{
     height: 400px;
     margin: 0 220px 45px;
 }
+/* -----------------------
+header content style end 
+-------------------------*/
 
+/*----------------------------
+ main content area style start 
+ ----------------------------*/
+ .main-container{
+    margin: 45px 150px;
+ }
+ .main-container .main-content-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 36px;
+ }
+.main-content-section .image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+}
+ .main-content-section .image-container img{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+ }
+ .btn-secoundar{
+    align-items: left;
+    margin-top: 20px;
+ }
+ /*-----------------------------
+  main content tytle style start
+  -----------------------------*/
+.main-content-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+.main-title-1{
+    color: #727272;
+}
+.main-title-2{
+    color:#131313;
+}
+.main-title-3{
+    color: #FF900E;
+}
+/*---------------------------
+ main content title style end 
+ ----------------------------*/
+ .main-content-descrption{
+    font-weight: 400;
+    font-size: 16px;
+    color:#727272;
+    margin-bottom: 32px;
+ }
+ /*-----------------------------
+ main content area style end 
+ ------------------------------*/
