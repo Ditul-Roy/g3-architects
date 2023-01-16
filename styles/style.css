@@ -79,6 +79,8 @@ body{
 header content style end 
 -------------------------*/
 
+
+
 /*----------------------------
  main content area style start 
  ----------------------------*/
@@ -135,10 +137,6 @@ header content style end
     color:#727272;
     margin-bottom: 32px;
  }
-/*
----------
- main content section style start
---------- */
 
  /*--------------------------------
   main experience content style star
@@ -187,6 +185,7 @@ header content style end
   facts area start
  ------------------- */
 .facts-title{
+
     font-weight: 700;
     font-size: 45px;
 }
@@ -208,9 +207,46 @@ header content style end
     border-radius: 8px;
     text-align: center;
 }
+.achivments-content:hover{
+    transform: rotate(45deg);
+}
  /*------------------
   facts area end
   -------------------*/
+
+
+/*-----------------------
+ join content style start 
+ ------------------------*/
+
+.join-content{
+    margin: 50px auto;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.join-content-title{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.form-contecnt{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.form-contecnt input{
+    width: 200px;
+    text-align: center;
+    height:50px;
+    border-radius: 8px;
+    margin: 10px 368px;
+}
+
+/*----------------------
+ join content style end 
+-----------------------*/
+
+
+
 
   /*-----------------
    sponsors area start
@@ -239,13 +275,17 @@ header content style end
     width:65px;
     filter: grayscale(100%);
    }
-  /*------------------ 
+   /*------------------ 
   sponsors area end
   ------------------ */
 
  /*-----------------------------
  main content area style end 
  ------------------------------*/
+
+/*-----------------------------
+ main content section style end
+------------------------------ */
 
  /*-------------------------
   footer content area start 
@@ -265,3 +305,154 @@ header content style end
  /*-------------------------
   footer content area end 
   ------------------------*/
+
+
+/*-------------------------------------------------
+ media quries start=mobile device(max-width:576px)
+------------------------------------------------- */
+
+
+ /*-------------------------
+    header media queries start 
+   --------------------------*/
+
+
+    @media only screen and (max-width:576px) {
+        .hedding-content{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .hedding-title .head-title{
+            margin:10px;
+            font-size: 30px;
+            text-align: left;
+        }
+        .navbar{
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+        }
+        
+        .banner-content{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .banner-title-area{
+            margin: 5px 10px;
+           
+        }
+        .banner-title-area .banner-title{
+            font-size: 27px;
+            margin-left: -70px;
+            text-align: -webkit-center;
+        }
+        .hedding-btn{
+            text-align: center;
+            margin:10px;
+        }
+        .banner-image img{
+            width: 350px;
+            height: 200px;
+            margin: 0;
+    }
+    .banner-description{
+        padding:10px;
+        text-align: left;
+    }
+}
+
+    /*-----------------------------
+     heder media quries end 
+     -----------------------------*/
+ 
+
+/*---------------------------------------
+ main content section media quries start
+-----------------------------------------*/
+@media only screen and (max-width:576px) {
+    .main-container{
+        margin: 45px 10px;
+     }
+    .main-container .main-content-section{
+        grid-template-columns: 1fr;
+    }
+    .main-content-section .image-container{
+        grid-template-columns: 1fr;
+        gap:5px;
+    }
+    .main-content-section .image-container img{
+        width: 242px;
+        height: 242px;
+        border-radius: 8px;
+     }
+}
+/* main experience sction*/
+
+@media only screen and (max-width:576px) {
+    .main-experience-container{
+        grid-template-columns: 1fr;
+    }
+    .btn-experience{
+        bottom: 0;
+    }
+}
+/* facts section */
+
+@media only screen and (max-width:576px) {
+    .facts-title{
+        font-weight: 700;
+        font-size: 45px;
+        text-align: center;
+    }
+    .description{
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        margin:10px;
+        text-align: center;
+    }
+    .achivments{
+        grid-template-columns: 1fr;
+        gap:10px;
+        align-items: center;
+    }
+    .achivments-content:hover{
+        transform: rotate(45deg);
+    }
+
+}
+
+/* sponsorse section */
+
+@media only screen and (max-width:576px) {
+    .spnsors-description{
+        font-weight: 400;
+        font-size: 16px;
+        color:#727272;
+        padding: 0;
+    } 
+}
+
+/* form section */
+
+@media only screen and (max-width:576px) {
+    .form-contecnt input{
+        width: 200px;
+        text-align: center;
+        height:50px;
+        border-radius: 8px;
+        margin: 10px 70px; 
+    }    
+}
+/* footer section */
+
+@media only screen and (max-width:576px) {
+    .footer-section{
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #424242;
+        padding: 20px 0;
+    }   
+}
+----------------------------------------
+ main content section media quries end
+------------------------------------------*/
