@@ -85,10 +85,16 @@ header content style end
  .main-container{
     margin: 45px 150px;
  }
+
+ /*----------
+  main content section style start
+ ---------- */
+ 
  .main-container .main-content-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 36px;
+    margin-bottom: 170px;
  }
 .main-content-section .image-container{
     display: grid;
@@ -105,7 +111,7 @@ header content style end
     margin-top: 20px;
  }
  /*-----------------------------
-  main content tytle style start
+  main content title style start
   -----------------------------*/
 .main-content-title{
     font-weight: 500;
@@ -129,6 +135,133 @@ header content style end
     color:#727272;
     margin-bottom: 32px;
  }
+/*
+---------
+ main content section style start
+--------- */
+
+ /*--------------------------------
+  main experience content style star
+ -------------------------------  */
+
+.main-experience-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.main-section{
+    display:flex;
+    gap:10px;
+}
+.main-content-section-2{
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+    margin:0;
+}
+.main-experience-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 0;
+}
+.main-experience-description{
+    font-weight: 400;
+    font-size: 16px;
+    color:#727272;
+}
+.experience-image img{
+    height: 700px;
+    width: 400px;
+    position:relative;
+
+}
+.btn-experience{
+    position: relative;
+    left:0;
+    bottom:162px;
+}
+/*-----------------------------------
+  main experience content style end 
+ ------------------------------------ */
+
+ /*-------------------
+  facts area start
+ ------------------- */
+.facts-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 0 430px 50px 0;
+}
+.achivments{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+}
+.achivments-content{
+    height:140px;
+    width: 140px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+ /*------------------
+  facts area end
+  -------------------*/
+
+  /*-----------------
+   sponsors area start
+   ---------------- */
+   .sponsors{
+    text-align: center;
+   }
+   .sponsors-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 50px;
+   }
+   .spnsors-description{
+    font-weight: 400;
+    font-size: 16px;
+    color:#727272;
+    padding: 0 220px 0 240px;
+   }
+   .sponsors-image-content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+   }
+   .sponsors-image-content img{
+    height:50px;
+    width:65px;
+    filter: grayscale(100%);
+   }
+  /*------------------ 
+  sponsors area end
+  ------------------ */
+
  /*-----------------------------
  main content area style end 
  ------------------------------*/
+
+ /*-------------------------
+  footer content area start 
+  -------------------------*/
+  footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+  }
+  .footer-section{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding: 40px 0;
+
+  }
+ /*-------------------------
+  footer content area end 
+  ------------------------*/
